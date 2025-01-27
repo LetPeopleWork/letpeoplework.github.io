@@ -1,55 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Let People Work
+title_separator: "|"
+
 email: contact@letpeople.work
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  It is getting harder and harder for us to focus on our work. Monotonous interactions and recurring meetings keep us busy as well as distracted from what should be our focus: delivering value to our customers.
+  As we go on, more meetings are added to rectify the situation, more things are "high-priority" and even less gets done.
+  The result? Frustrated team members, overwhelmed managers, angry stakeholders, and complaining customers.
+  People want to contribute. People want to deliver value. People want to be part of something successful. We just need to let them work.
+  We've seen what impact a change in the system can have on individuals, teams, as well as an organization as a whole.
+  We at Let People Work would like to support you in unleashing the full potential of your employees and teams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+minimal_mistakes_skin: "dark" # options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+locale: "en-US"
+
+search: false
+github_username:  letpeoplework
+repository: "letpeoplework/letpeoplework.github.io"
+logo: "/assets/Logo.png"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+include: ["_pages"]
+
+footer:
+  links:
+    - label: "Calendly"
+      icon: "fa-solid fa-phone"
+      url: "https://calendly.com/letpeoplework/"
+    - label: "Email"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:contact@letpeople.work"
+    - label: "Slack"
+      icon: "fab fa-fw fa-slack"
+      url: "https://join.slack.com/t/let-people-work/shared_invite/zt-2y0zfim85-qhbgt8N0yw90G1P~JWXvlg"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/let-people-work"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/letpeoplework"    

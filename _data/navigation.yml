@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: index.html
+  - title: "Training"
+    url: /training/
+  - title: "Tools"
+    url: /tools/
+  - title: "Tailored Services"
+    url: /services/
