@@ -5,5 +5,7 @@ main:
     url: /training/
   - title: "Tools"
     url: /tools/
-  - title: "Tailored Services"
+  - title: "Services"
     url: /services/
+  - title: "Blog"
+    url: https://blog.letpeople.work/

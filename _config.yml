@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-minimal_mistakes_skin: "dark" # options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
 locale: "en-US"
 
 search: false
@@ -25,6 +25,8 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+atom_feed:
+  hide: true
 
 include: ["_pages"]
 

@@ -5,6 +5,20 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+.feature__item {
+  .archive__item-teaser {
+    height: 200px; /* Adjust this value as needed */
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: 200px; /* Match container height */
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
 .masthead {
   background-color: #30574E;
   
