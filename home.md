@@ -183,5 +183,3 @@ While all our tools are free to use, we do offer our services if you need suppor
 
 # About Us
 {% include feature_row id="feature_row_about_us"  %}
-
-<br/><br/><br/>

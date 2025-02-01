@@ -64,13 +64,8 @@
 .page__footer {
   background-color: #30574E;
   color: #fff;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  margin: 0;
   width: 100%;
-  z-index: 1000;
-  padding: 0.3em 0; // Further reduce padding
+  padding: 0.3em 0;
   
   .page__footer-follow,
   .page__footer-copyright {
@@ -82,5 +77,5 @@
 }
 
 .page {
-  padding-bottom: 2em; // Reduce bottom padding to match smaller footer
+  padding-bottom: 0; // Remove extra padding since footer isn't fixed anymore
 }
