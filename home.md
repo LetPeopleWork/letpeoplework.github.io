@@ -153,6 +153,26 @@ feature_row_about_us:
       I believe work can be creative and fun. I believe we can reduce those wasteful activities and create an environment where you can focus on delivering value instead of simply being busy. And I believe that you and your team can move in this direction as well, independent of your current environment and processes.
 
       I'd love to support you while moving in this direction.
+
+feature_row_contact:
+  - url: "https://calendly.com/letpeoplework/"
+    btn_label: "Schedule"
+    btn_class: "btn--primary" 
+    title: "Schedule a Call"
+    image_path: "assets/Calendly.png"
+    excerpt: Do you want to talk to us about a specific topic? Schedule a 30 Minute call through Calendly
+  - url: "mailto:contact@letpeople.work"
+    btn_label: "Write"
+    btn_class: "btn--primary" 
+    title: "Write an Email"
+    excerpt: "If you can formulate your request in text format, feel free to reach out to us via email"
+    image_path: "assets/Email.png"
+  - url: "https://join.slack.com/t/let-people-work/shared_invite/zt-2y0zfim85-qhbgt8N0yw90G1P~JWXvlg"
+    btn_label: "Join"
+    btn_class: "btn--primary"
+    title: "Join our Slack Community"
+    excerpt: "Do you need support with our tools? Join our Slack and get help from us and other users"
+    image_path: "assets/slack.png"
 ---
 
 {% include feature_row id="feature_row_events" type="center" %}
@@ -183,3 +203,8 @@ While all our tools are free to use, we do offer our services if you need suppor
 
 # About Us
 {% include feature_row id="feature_row_about_us"  %}
+
+# Contact
+Have a question or are you curious to learn more about our offering? This is how you can contact us:
+
+{% include feature_row id="feature_row_contact"  %}

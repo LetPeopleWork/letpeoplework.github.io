@@ -27,17 +27,3 @@ plugins:
 
 atom_feed:
   hide: true
-
-include: ["_pages"]
-
-footer:
-  links:
-    - label: "Calendly"
-      icon: "fa-solid fa-phone"
-      url: "https://calendly.com/letpeoplework/"
-    - label: "Email"
-      icon: "fa-solid fa-envelope"
-      url: "mailto:contact@letpeople.work"
-    - label: "Slack"
-      icon: "fa-brands fa-slack"
-      url: "https://join.slack.com/t/let-people-work/shared_invite/zt-2y0zfim85-qhbgt8N0yw90G1P~JWXvlg"
