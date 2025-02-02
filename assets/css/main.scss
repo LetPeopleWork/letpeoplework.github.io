@@ -79,3 +79,19 @@
 .page {
   padding-bottom: 0; // Remove extra padding since footer isn't fixed anymore
 }
+
+.btn--primary {
+  background-color: #30574E !important;
+  color: #fff !important;
+  border-color: #30574E !important;
+  
+  &:visited {
+    background-color: #30574E !important;
+    color: #fff !important;
+  }
+  
+  &:hover {
+    background-color: lighten(#30574E, 10%) !important;
+    color: #fff !important;
+  }
+}

@@ -25,16 +25,24 @@ feature_row_trainings:
     url: "https://www.prokanban.org/training"
     btn_label: "ProKanban Trainings"
     btn_class: "btn--primary"
+
   - image_path: assets/MicroTrainings.png
     alt: "Micro Trainings"
     title: "Micro Training Sessions"
     excerpt: |
       For everyone that wants to level up their knowledge, but can't or does not want to spend multiple days, we offer our Micro Trainings. Those are five 2h sessions, where participants learn about: Flow Metrics, Forecasting, Data-Driven Decision-Making, How to Shift the Dynamics within a Team, and Visualizing Information.
+    url: "https://www.eventbrite.com/o/let-people-work-93527802613"
+    btn_label: "Register"
+    btn_class: "btn--primary"
+  
   - image_path: assets/Flowbeya.png
     alt: "Flowbeya"
     title: "Flowbeya"
     excerpt: |
       In this highly interactive training, the participants will be introduced to two concepts: Flow Metrics and Obeya. Through hands-on exercises, they'll learn how to those concepts on their own can help their teams and organization to improve their effectiveness.
+    url: "#contact"
+    btn_label: "Contact Us for more details"
+    btn_class: "btn--primary"
 
 feature_row_workshops:
   - image_path: /assets/Workshop.jpg
@@ -46,20 +54,23 @@ feature_row_workshops:
       - Portfolio Level Kanban & Metrics
       - Advanced Flow Metrics using Process Behaviour Charts (PBCs)
       - Build Your Own Obeya
-
-      [Reach out to us](#contact) if you are interested in one of these topics!
+    url: "#contact"
+    btn_label: "Contact Us for more details"
+    btn_class: "btn--primary"
 
 feature_row_tools:
   - image_path: /assets/Security.jpg
     title: "Runs Anywhere while your Data goes Nowhere"
     excerpt: |
       The tools run on Windows, macOS, Linux, or as a docker container. They are all designed to run on your systems of choice. The data will never leave your system. 
+      
   - image_path: /assets/GitHub.png
     title: "Free and Open-Source"
     excerpt: Our Tools are hosted on GitHub under an MIT License and are free to use. Whether you are an individual, small company, or big enterprise. No hidden fees, no subscription service.
     url: "https://github.com/letpeoplework"
     btn_label: "Check out our GitHub"
     btn_class: "btn--primary"
+
   - image_path: /assets/Integration.jpg
     title: "Seamless Integration"
     excerpt: |
@@ -76,7 +87,7 @@ feature_row_lighthouse:
       * Supports you in creating a realistic plan for your Sprints, Product Increments, etc.
 
     url: "https://docs.lighthouse.letpeople.work"
-    btn_label: "Check the Documentation"
+    btn_label: "See the Documentation"
     btn_class: "btn--primary"
 
   - image_path: /assets/ProjectPlanning.png
@@ -90,7 +101,7 @@ feature_row_lighthouse:
       * Create transparency by using historical team data to plan your projects
   
     url: "https://lighthousepublicdemo.azurewebsites.net/"
-    btn_label: "Check the Live Demo"
+    btn_label: "View the Live Demo"
     btn_class: "btn--primary"
 
   - image_path: /assets/Overview.png
@@ -130,6 +141,7 @@ feature_row_about_us:
       a good toolkit at hand are very helpful.
       
       I'm happy to be able to share some of these with you.
+
   - image_path: /assets/Logo.png
     title: "Why do we even care about all this?"
     excerpt: |
@@ -143,6 +155,7 @@ feature_row_about_us:
 
       We've seen what impact a change in the system can have on individuals, teams, as well as an organization as a whole.
       We'd like to support you in unleashing the full potential of your employees and teams.
+
   - image_path: /assets/Benji.png
     title: "Benjamin Huser-Berta"
     excerpt: |
@@ -161,12 +174,14 @@ feature_row_contact:
     title: "Schedule a Call"
     image_path: "assets/Calendly.png"
     excerpt: Do you want to talk to us about a specific topic? Schedule a 30 Minute call through Calendly
+  
   - url: "mailto:contact@letpeople.work"
     btn_label: "Write"
     btn_class: "btn--primary" 
     title: "Write an Email"
     excerpt: "If you can formulate your request in text format, feel free to reach out to us via email"
     image_path: "assets/Email.png"
+
   - url: "https://join.slack.com/t/let-people-work/shared_invite/zt-2y0zfim85-qhbgt8N0yw90G1P~JWXvlg"
     btn_label: "Join"
     btn_class: "btn--primary"
