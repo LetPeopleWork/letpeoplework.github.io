@@ -100,7 +100,7 @@ feature_row_lighthouse:
       * Forecast Sprints, Product Increments, Releases, or anything else you treat as a project
       * Create transparency by using historical team data to plan your projects
   
-    url: "https://lighthousepublicdemo.azurewebsites.net/"
+    url: "https://demo.lighthouse.letpeople.work"
     btn_label: "View the Live Demo"
     btn_class: "btn--primary"
 
