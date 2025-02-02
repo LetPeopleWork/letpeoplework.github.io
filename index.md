@@ -47,7 +47,7 @@ feature_row_workshops:
       - Advanced Flow Metrics using Process Behaviour Charts (PBCs)
       - Build Your Own Obeya
 
-      [Reach out to us](mailto:contact@letpeople.work) if you are interested in one of these topics!
+      [Reach out to us](#contact) if you are interested in one of these topics!
 
 feature_row_tools:
   - image_path: /assets/Security.jpg
@@ -180,7 +180,7 @@ feature_row_contact:
 {% include feature_row id="intro" type="center" %}
 
 # Trainings
-We offer a variety of training formats, both public and as private events. If you are interested in a private session, [reach out to us](mailto:contact@letpeople.work)!
+We offer a variety of training formats, both public and as private events. If you are interested in a private session, [reach out to us](#contact)!
 
 {% include feature_row id="feature_row_trainings" %}
 {% include feature_row id="feature_row_workshops" type="left" %}
@@ -199,7 +199,7 @@ Lighthouse is our flagship product that will revolutionize your planning process
 ## FlowPulse
 {% include feature_row id="feature_row_flowpulse" type="left" %}
 
-While all our tools are free to use, we do offer our services if you need support to set them up, would like a specific feature, or want to consult with us. [Reach out to us](mailto:contact@letpeople.work) to learn more.
+While all our tools are free to use, we do offer our services if you need support to set them up, would like a specific feature, or want to consult with us. [Reach out to us](#contact) to learn more.
 
 # About Us
 {% include feature_row id="feature_row_about_us"  %}

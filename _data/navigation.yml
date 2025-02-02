@@ -1,12 +1,12 @@
 main:
   - title: "Training"
-    url: index.html#trainings
+    url: "#trainings"
   - title: "Tools"
-    url: index.html#tools
+    url: "#tools"
   - title: "About Us"
-    url: index.html#about-us
+    url: "#about-us"
   - title: "Contact"
-    url: index.html#contact
+    url: "#contact"
   - title: "Blog"
     url: https://blog.letpeople.work/
     target: _blank
