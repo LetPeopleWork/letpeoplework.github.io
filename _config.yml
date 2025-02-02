@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We've seen what impact a change in the system can have on individuals, teams, as well as an organization as a whole.
   We at Let People Work would like to support you in unleashing the full potential of your employees and teams.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://letpeople.work"
 
 minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
 locale: "en-US"
