@@ -12,7 +12,7 @@ feature_row_events:
       | Date | Event | Description |
       |:---:|:---:|:---:|
       | 27.-28.03.2025 | [Scan Agile](https://www.scan-agile.org/) | Flowbeya - How visualizing Flow Metrics on an Obeya can guide your Team |
-      | 01.-03.04.2025 | [Applying Professional Kanban](https://www.prokanban.org/events-category/apk) | Registration and Details will follow soon |
+      | 01.-03.04.2025 | [Applying Professional Kanban](https://www.prokanban.org/event/applying-professional-kanban-994) | This course covers how to get started with Kanban, designing and visualizing workflows, applying Kanban practices, understanding Kanban theory, strategy, and metrics, and improving Kanban systems for better results. **If you register till end of February, you will get a 20% early bird discount** |
       | May & June 2025 | [Let People Work Micro Training Sessions](https://www.eventbrite.ch/e/let-people-work-micro-trainings-tickets-1222659550629?aff=oddtdtcreator) | Explore Flow, Forecasting, Data-Driven Decision Making, Shifting Team Dynamics, and Visualizing Information in 5x2h sessions. |
 
 
