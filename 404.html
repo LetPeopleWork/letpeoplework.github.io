@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+        const hashMap = {
+            "/lighthouse": "#lighthouse",
+            "/flowpulse": "#flowpulse",
+            "/flowmetricscsv": "#flowpulse",
+            "/montecarlocsv": "#flowpulse",
+            "/trainings": "#trainings",
+            "/training": "#trainings",
+            "/aboutus": "#about-us",
+        };
+        const path = window.location.pathname;
+        const targetHash = hashMap[path] || "";
+
+        window.location.replace("/" + targetHash);
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a id="redirect-link" href="/">click here</a>.</p>
+    <script>
+        document.getElementById("redirect-link").href = "/" + (hashMap[path] || "");
+    </script>
+</body>
+</html>
