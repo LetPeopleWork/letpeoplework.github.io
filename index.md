@@ -128,6 +128,9 @@ feature_row_flowpulse:
       * Combines Flow Metrics Visualization and Forecasts in one tool
       * Allows you to easily regenerate forecasts and visualization once you've set it up
       * More Lightweight than Lighthouse (but with fewer features)
+    url: "https://docs.flowpulse.letpeople.work"
+    btn_label: "FlowPulse Documentation"
+    btn_class: "btn--primary"
 
 feature_row_about_us:
   - image_path: /assets/Peter.png
