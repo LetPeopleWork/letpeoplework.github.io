@@ -7,6 +7,9 @@ main:
     url: "#about-us"
   - title: "Contact"
     url: "#contact"
+  - title: "Event Tickets"
+    url: https://www.tickettailor.com/events/letpeoplework?
+    target: _blank
   - title: "Blog"
     url: https://blog.letpeople.work/
     target: _blank
