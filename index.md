@@ -206,9 +206,7 @@ We offer a variety of training formats, both public and as private events. If yo
 {% include feature_row id="feature_row_workshops" type="left" %}
 
 # Tools
-Apart from our Trainings, we're also providing you various tools.
-
-{% include feature_row id="feature_row_tools" %}
+Apart from our Trainings, we're also providing you various tools. While all our tools are free to use, we do offer our services if you need support to set them up, would like a specific feature, or want to consult with us. [Reach out to us](#contact) to learn more.
 
 ## Lighthouse
 Lighthouse is our flagship product that will revolutionize your planning process and project management.
@@ -219,7 +217,8 @@ Lighthouse is our flagship product that will revolutionize your planning process
 ## FlowPulse
 {% include feature_row id="feature_row_flowpulse" type="left" %}
 
-While all our tools are free to use, we do offer our services if you need support to set them up, would like a specific feature, or want to consult with us. [Reach out to us](#contact) to learn more.
+
+{% include feature_row id="feature_row_tools" %}
 
 # About Us
 {% include feature_row id="feature_row_about_us"  %}
