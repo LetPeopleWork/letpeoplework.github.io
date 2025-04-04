@@ -34,7 +34,7 @@ feature_row_trainings:
     title: "Micro Training Sessions"
     excerpt: |
       For everyone that wants to level up their knowledge, but can't or does not want to spend multiple days, we offer our Micro Trainings. Those are five 2h sessions, where participants learn about: Flow Metrics, Forecasting, Data-Driven Decision-Making, How to Shift the Dynamics within a Team, and Visualizing Information.
-    url: "https://www.eventbrite.com/o/let-people-work-93527802613"
+    url: "https://www.tickettailor.com/events/letpeoplework?"
     btn_label: "Register"
     btn_class: "btn--primary"
   
