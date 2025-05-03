@@ -11,7 +11,7 @@ feature_row_events:
     excerpt: |
       | Date | Event | Description |
       |:---:|:---:|:---:|
-      | 07.05.2025 | [DevOps Meetup Bern](https://www.meetup.com/devops-bern/events/306140093/?slug=devops-bern&eventId=306140093) | Use the Power of the universe to creat realistic Timelines - challenge accepted |
+      | 07.05.2025 | [DevOps Meetup Bern](https://www.meetup.com/devops-bern/events/306140093/?slug=devops-bern&eventId=306140093) | Use the Power of the universe to create realistic Timelines - challenge accepted |
       | 17.06.2025 | [Online Scrum Master Summit](https://onlinescrummastersummit.com/) | Flowbeya - How visualising Flow Metrics on an Obeya can guide your Organisation and Teams |
       | 18.07.2025 | [Flowbeya - Drive Team Effectiveness with Flow Metrics & Obeya](https://www.tickettailor.com/events/letpeoplework/1630810) | Join us for a hands-on, highly interactive 4-hour workshop where you’ll explore two powerful concepts—Flow Metrics and Obeya—and discover how to apply them to enhance team and organizational effectiveness. |
       | August & September 2025 | [Applying Professional Kanban in 5 small Batches](https://www.tickettailor.com/events/letpeoplework/1630818?) | This course covers how to get started with Kanban, designing and visualizing workflows, applying Kanban practices, understanding Kanban theory, strategy, and metrics, and improving Kanban systems for better results. |
@@ -210,6 +210,48 @@ Apart from our Trainings, we're also providing you various tools. While all our 
 
 ## Lighthouse
 Lighthouse is our flagship product that will revolutionize your planning process and project management.
+
+<div id="lighthouse-downloads" style="margin-top: 1em;">
+  <p><strong>Download the latest version of Lighthouse:</strong></p>
+  <button id="download-windows" class="btn btn--primary" disabled>Windows</button>
+  <button id="download-linux" class="btn btn--primary" disabled>Linux</button>
+  <button id="download-macos" class="btn btn--primary" disabled>macOS</button>
+</div>
+
+<script>
+  fetch("https://api.github.com/repos/letpeoplework/Lighthouse/releases/latest")
+    .then(response => response.json())
+    .then(data => {
+      const assets = data.assets || [];
+
+      const findAsset = (platformMatchers) =>
+        assets.find(a =>
+          platformMatchers.some(matcher => a.name.toLowerCase().includes(matcher))
+        );
+
+      const platforms = {
+        windows: ['win'],
+        linux: ['linux'],
+        macos: ['osx']
+      };
+
+      for (const [platform, matchers] of Object.entries(platforms)) {
+        const asset = findAsset(matchers);
+        const btn = document.getElementById(`download-${platform}`);
+        if (asset && btn) {
+          btn.disabled = false;
+          btn.onclick = () => {
+            window.location.href = asset.browser_download_url;
+          };
+        }
+      }
+    })
+    .catch(err => {
+      console.error("Failed to load latest release info:", err);
+      document.getElementById("lighthouse-downloads").innerHTML =
+        "<p>Unable to fetch the latest downloads. Please visit the <a href='https://github.com/Lighthouse-Platform/Lighthouse/releases/latest'>release page</a>.</p>";
+    });
+</script>
 
 {% include feature_row id="feature_row_lighthouse" %}
 
