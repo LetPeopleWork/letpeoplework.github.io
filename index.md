@@ -11,12 +11,8 @@ feature_row_events:
     excerpt: |
       | Date | Event | Description |
       |:---:|:---:|:---:|
-      | 07.05.2025 | [DevOps Meetup Bern](https://www.meetup.com/devops-bern/events/306140093/?slug=devops-bern&eventId=306140093) | Use the Power of the universe to create realistic Timelines - challenge accepted |
       | 17.06.2025 | [Online Scrum Master Summit](https://onlinescrummastersummit.com/) | Flowbeya - How visualising Flow Metrics on an Obeya can guide your Organisation and Teams |
       | 18.07.2025 | [Flowbeya - Drive Team Effectiveness with Flow Metrics & Obeya](https://www.tickettailor.com/events/letpeoplework/1630810) | Join us for a hands-on, highly interactive 4-hour workshop where you’ll explore two powerful concepts—Flow Metrics and Obeya—and discover how to apply them to enhance team and organizational effectiveness. |
-      | August & September 2025 | [Applying Professional Kanban in 5 small Batches](https://www.tickettailor.com/events/letpeoplework/1630818?) | This course covers how to get started with Kanban, designing and visualizing workflows, applying Kanban practices, understanding Kanban theory, strategy, and metrics, and improving Kanban systems for better results. |
-      | October 2025 | [Let People Work Micro Training Sessions](https://www.tickettailor.com/events/letpeoplework/1630793) | Explore Flow, Forecasting, Data-Driven Decision Making, Shifting Team Dynamics, and Visualizing Information in 5x2h sessions. |
-
 
 feature_row_trainings:
   - image_path: /assets/PKLogo.png
