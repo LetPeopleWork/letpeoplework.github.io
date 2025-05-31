@@ -169,7 +169,7 @@ feature_row_about_us:
       I'd love to support you while moving in this direction.
 
 feature_row_contact:
-  - url: "https://calendly.com/letpeoplework/"
+  - url: "https://calendly.com/let-people-work"
     btn_label: "Schedule"
     btn_class: "btn--primary" 
     title: "Schedule a Call"
