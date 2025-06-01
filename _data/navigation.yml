@@ -7,6 +7,9 @@ main:
     url: "#about-us"
   - title: "Contact"
     url: "#contact"
+  - title: "Our Obeya"
+    url: https://miro.com/app/board/uXjVItmYi5c=/?share_link_id=874060812346
+    target: _blank
   - title: "Event Tickets"
     url: https://www.tickettailor.com/events/letpeoplework?
     target: _blank
