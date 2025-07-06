@@ -10,10 +10,8 @@ feature_row_events:
   - title: "Upcoming Events"
     excerpt: |
       | Date | Event | Description |
-      |:---:|:---:|:---:|
-      | 17.06.2025 | [Online Scrum Master Summit](https://onlinescrummastersummit.com/) | Flowbeya - How visualising Flow Metrics on an Obeya can guide your Organisation and Teams |      
+      |:---:|:---:|:---:| 
       | 11.07.2025 | [Lighthouse Demo](https://www.tickettailor.com/events/letpeoplework/1741887) | **Free** Demo of Lighthouse |
-      | 18.07.2025 | [Flowbeya - Drive Team Effectiveness with Flow Metrics & Obeya](https://www.tickettailor.com/events/letpeoplework/1630810) | Join us for a hands-on, highly interactive 4-hour workshop where you’ll explore two powerful concepts—Flow Metrics and Obeya—and discover how to apply them to enhance team and organizational effectiveness. |
       | 22.08.2025 | [Introduction to Probabilistic Forecasting](https://www.tickettailor.com/events/letpeoplework/1724396) | What's MCS and how does it work? How is it different from "traditional estimation". What are the prerequisites and how to get started. We will explain how MCS works, how you gather the data, how you apply it and what data you need to run a MCS in your context. |
       | 05.09.2025 | [Service Level Expectations & Right Sizing](https://www.tickettailor.com/events/letpeoplework/1724397) | When work arrives unpredictably, teams struggle to promise when something will be done and how big it should be. In this session you’ll learn two complementary levers—Service Level Expectations (SLEs) and Right-Sizing—that turn fuzzy commitments into clear, data-driven conversations. |
 
