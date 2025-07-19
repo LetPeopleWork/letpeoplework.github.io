@@ -11,7 +11,6 @@ feature_row_events:
     excerpt: |
       | Date | Event | Description |
       |:---:|:---:|:---:| 
-      | 11.07.2025 | [Lighthouse Demo](https://www.tickettailor.com/events/letpeoplework/1741887) | **Free** Demo of Lighthouse |
       | 22.08.2025 | [Introduction to Probabilistic Forecasting](https://www.tickettailor.com/events/letpeoplework/1724396) | What's MCS and how does it work? How is it different from "traditional estimation". What are the prerequisites and how to get started. We will explain how MCS works, how you gather the data, how you apply it and what data you need to run a MCS in your context. |
       | 05.09.2025 | [Service Level Expectations & Right Sizing](https://www.tickettailor.com/events/letpeoplework/1724397) | When work arrives unpredictably, teams struggle to promise when something will be done and how big it should be. In this session you’ll learn two complementary levers—Service Level Expectations (SLEs) and Right-Sizing—that turn fuzzy commitments into clear, data-driven conversations. |
 
@@ -98,10 +97,6 @@ feature_row_lighthouse:
       * Supports projects where multiple teams contribute ​to features
       * Forecast Sprints, Product Increments, Releases, or anything else you treat as a project
       * Create transparency by using historical team data to plan your projects
-  
-    url: "https://demo.lighthouse.letpeople.work"
-    btn_label: "View the Live Demo"
-    btn_class: "btn--primary"
 
   - image_path: /assets/Overview.png
     title: "Keep The Overview"
